@@ -1,0 +1,28 @@
+{
+    "train_csv": "/home/tarun.bezawada/multimodal_analysis/dataset/train/train_sent_emo.csv",
+    "train_video_dir": "/home/tarun.bezawada/multimodal_analysis/dataset/train/train_splits",
+    "val_csv": "/home/tarun.bezawada/multimodal_analysis/dataset/dev/dev_sent_emo.csv",
+    "val_video_dir": "/home/tarun.bezawada/multimodal_analysis/dataset/dev/dev_splits_complete",
+    "test_csv": "/home/tarun.bezawada/multimodal_analysis/dataset/test/test_sent_emo.csv",
+    "test_video_dir": "/home/tarun.bezawada/multimodal_analysis/dataset/test/output_repeated_splits_test",
+    
+    "num_emotions": 7,
+    "num_sentiments": 3,
+    
+    "batch_size": 32,
+    "num_workers": 8,
+    "num_epochs": 30,
+    "learning_rate": 0.0002,
+    "gradient_accumulation_steps": 2,
+    "patience": 5,
+    
+    "save_dir": "/home/tarun.bezawada/multimodal_analysis/checkpoints/meld_optimized",
+    
+    "data_params": {
+        "max_frames": 30,
+        "frame_sample_rate": 3,
+        "max_text_length": 128,
+        "audio_sample_rate": 16000,
+        "n_mels": 64
+    }
+}
