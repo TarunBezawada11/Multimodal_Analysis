@@ -13,7 +13,7 @@ The system was developed across five experimental versions (V1–V5), each isola
 
 ## Architecture
 
-![Five-layer multimodal architecture](docs/architecture.png)
+![Five-layer multimodal architecture](https://github.com/TarunBezawada11/Multimodal_Analysis/blob/main/Multimodal%20Architecture.png)
 
 Data → Processing → Modality Encoders → Gated Fusion → Joint Classification.
 
